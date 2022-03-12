@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    
+    background: radial-gradient(circle,#fff,#FFBDBD);
+    display: flex;
+    
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    
+    grid-gap: 10px;
+    
+}
+
+img {
+    width: 100%;   
+    height: 100%;
+    
+}
+
+
+.grid-item {
+    border: 1px solid #000
+}
+
+.volver {
+    text-decoration: none;
+    font: bold 90% 'Lobster',cursive;
+    text-align: center;
+    color: #c90076;
+}
+
+

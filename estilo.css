@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    background: radial-gradient(circle,#fff,#FFBDBD);
+    display: flex;
+    position: absolute;
+    z-index: -1000;
+    width: 100vh;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 100vh;
+    height: 190vh;
+    background: radial-gradient(circle,#fff,#FFBDBD);
+
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0.5%;
+    width: 10vh;
+    height: 11vh;
+    /* background: radial-gradient(circle,#fff,#FFBDBD); */
+    z-index: 1000;
+    
+}
+
+.nav:hover > .menu__ul-container {
+    top: 105%;
+    z-index: 2000;
+}
+
+.menu-button {
+    display: flex;
+    position: fixed;
+    width: 10vh;
+    height: 10vh;
+    top: 0.5%;
+    left: 1%;
+    
+}
+
+.menu-button img {
+    position: fixed;
+    width: 10%;
+    height: 6%;
+    /* top: 0% */
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px #FFBDBD;
+    
+}
+
+.menu__ul-container {
+    display: block;
+    position: absolute;
+    background: radial-gradient(circle,#fff,#FFBDBD);
+    width: 265%;
+    height: 140%;
+    z-index: 1000; 
+    text-align: left;
+    top: -1000%;
+    left: 10%;
+    border-radius: 10%;
+    transition: all 0.3s;
+}
+
+.menu__ul {
+    display: block;
+    position: relative;
+    top: -10%;
+    left: -20%;
+    z-index: 1000;
+    
+}
+
+.menu__li {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 2%;
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+}
+
+.menu__li i {
+    color: #c90076;
+    margin: 1%;
+
+}
+
+.menu__li a {
+    margin: 1%;
+    color: #c90076;
+    text-decoration: none;
+}
+
+.logo2 {
+    display: flex;
+    position: absolute;
+    width: 11%;
+    height: 6.5%;
+    top: 0.5%;
+    left: 36%;
+    border-radius: 50%;
+    z-index: 890;
+    box-shadow: 5px 5px 5px 5px #FFBDBD;
+}
+
+.slogan {
+    display: flex;
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 5%;
+    font: bold 90% 'Lobster',cursive;
+    text-align: center;
+    color: #c90076;
+}
+
+.titulo {
+    display: flex;
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    font: bold 250% 'Lobster',cursive;
+    text-align: center;
+    color: #c90076;
+    z-index: 100;
+}
+
+.publi-container {
+    display: block;
+    position: relative;
+    width: 48vh;
+    height: 55vh;
+    /* border: 2px solid black; */
+    top: 20%;
+}
+
+.texto1 {
+    top: -30%;
+    margin-left: 1%;
+    padding-left: 1%;
+    position: relative;
+    color: #c90076;
+    padding-top: -20px;
+}
+
+.texto1 span{
+    font-family: 'Righteous', cursive;
+}
+
+
+.texto2 {
+    top: -30%;
+    margin-left: 1%;
+    padding-left: 1%;
+    position: relative;
+    padding-top: 20px;
+    color: #c90076;
+}
+
+.texto2 span{
+    font-family: 'Righteous', cursive;
+}
+
+.texto3 {
+    top: -30%;
+    margin-left: 1%;
+    padding-left: 1%;
+    position: relative;
+    padding-top: 20px;
+    color: #c90076;
+}
+
+.texto3 span{
+    font-family: 'Righteous', cursive;
+}
+
+.texto4 {
+    top: -30%;
+    margin-left: 1%;
+    padding-left: 1%;
+    position: relative;
+    padding-top: 20px;
+    color: #c90076;
+}
+
+.texto4 span{
+    font-family: 'Righteous', cursive;
+}
+
+.profi {
+    top: -30%;
+    position: relative;
+    display: block;
+    float: right;
+    max-width: 100px;
+}
+
+.radix {
+    top: -30%;
+    position: relative;
+    display: block;
+    float: right;
+    max-width: 100px;
+}
+
+.endo {
+    top: -30%;
+    position: relative;
+    display: block;
+    float: right;
+    max-width: 100px;
+}
+
+.endoned {
+    top: -30%;
+    position: relative;
+    display: block;
+    float: right;
+    max-width: 100px;
+}
+
+.mapa {
+    display: flex;
+    position: absolute;
+    top: 1150px;
+    left: 10%; 
+    max-width: 25%;
+    transition: all 1s;
+    
+}
+.mapa:hover {
+    left: 0%;
+    top: 1115px;
+    max-width: 50%;
+}
+
+.domicilio {
+    display: flex;
+    position: relative;
+    background: transparent;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: #c90076;
+    top: 1300px;
+    left: -45%;
+    width: 40vh;
+}
+
