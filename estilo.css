@@ -14,7 +14,7 @@ body{
     display: flex;
     position: relative;
     width: 100vh;
-    height: 190vh;
+    height: 230vh;
     background: radial-gradient(circle,#fff,#FFBDBD);
 
 }
@@ -230,7 +230,7 @@ body{
 .mapa {
     display: flex;
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 10%; 
     max-width: 25%;
     transition: all 1s;
@@ -250,7 +250,7 @@ body{
     font-family: 'Righteous', cursive;
     text-align: center;
     color: #c90076;
-    top: 100%;
+    top: 95%;
     left: -45%;
     width: 40vh;
 }
