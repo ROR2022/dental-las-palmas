@@ -28,7 +28,7 @@ img {
 }
 
 
-.grid-item {
+.grid-item  {
     border: 1px solid #000
 }
 
@@ -52,5 +52,224 @@ img {
     color: #c90076;
     padding: 1%;
 }
+
+.song {
+    display: block;
+    text-align: center;
+}
+
+.imagen1:hover, .imagen10:hover, .imagen19:hover {
+    animation-duration: 1s;
+    animation-name: bounceOut;
+}
+.imagen2:hover, .imagen11:hover, .imagen20:hover {
+    animation-duration: 1s;
+    transform-origin: center;
+    animation-name: rotateIn;
+}
+.imagen3:hover, .imagen12:hover, .imagen21:hover {
+    animation-name: heartBeat;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+}
+.imagen4:hover, .imagen13:hover, .imagen22:hover {
+    animation-name: backInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.imagen5:hover, .imagen14:hover, .imagen23:hover {
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+}
+.imagen6:hover, .imagen15:hover, .imagen24:hover {
+    animation-name: rollIn;
+    animation-duration: 4s;
+}
+.imagen7:hover, .imagen16:hover, .imagen25:hover {
+    animation-name: flash;
+    animation-duration: 1s;
+}
+.imagen8:hover, .imagen17:hover, .imagen26:hover {
+    animation-timing-function: ease-in-out;
+    animation-name: headShake;
+    animation-duration: 1s;
+}
+
+.imagen9:hover, .imagen18:hover {
+    animation-name: jello;
+    transform-origin: center;
+    animation-duration: 1s;
+}
+
+
+
+@keyframes bounceOut {
+    20% {
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+  
+    50%,
+    55% {
+      opacity: 1;
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+  
+    to {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  }
+  @keyframes rotateIn {
+    from {
+      transform: rotate3d(0, 0, 1, -200deg);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes heartBeat {
+    0% {
+      transform: scale(1);
+    }
+  
+    14% {
+      transform: scale(1.3);
+    }
+  
+    28% {
+      transform: scale(1);
+    }
+  
+    42% {
+      transform: scale(1.3);
+    }
+  
+    70% {
+      transform: scale(1);
+    }
+  }
+ 
+@keyframes backInLeft {
+    0% {
+      transform: translateX(-2000px) scale(0.7);
+      opacity: 0.7;
+    }
+  
+    80% {
+      transform: translateX(0px) scale(0.7);
+      opacity: 0.7;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  
+@keyframes rollIn {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  @keyframes headShake {
+    0% {
+      transform: translateX(0);
+    }
+  
+    6.5% {
+      transform: translateX(-6px) rotateY(-9deg);
+    }
+  
+    18.5% {
+      transform: translateX(5px) rotateY(7deg);
+    }
+  
+    31.5% {
+      transform: translateX(-3px) rotateY(-5deg);
+    }
+  
+    43.5% {
+      transform: translateX(2px) rotateY(3deg);
+    }
+  
+    50% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes jello {
+    from,
+    11.1%,
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    22.2% {
+      transform: skewX(-12.5deg) skewY(-12.5deg);
+    }
+  
+    33.3% {
+      transform: skewX(6.25deg) skewY(6.25deg);
+    }
+  
+    44.4% {
+      transform: skewX(-3.125deg) skewY(-3.125deg);
+    }
+  
+    55.5% {
+      transform: skewX(1.5625deg) skewY(1.5625deg);
+    }
+  
+    66.6% {
+      transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    }
+  
+    77.7% {
+      transform: skewX(0.390625deg) skewY(0.390625deg);
+    }
+  
+    88.8% {
+      transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    }
+  }
+  
+  
+ 
 
 
