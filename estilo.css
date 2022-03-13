@@ -13,7 +13,7 @@ body{
     display: flex;
     position: relative;
     width: 50vh;
-    height: 220vh;
+    height: 230vh;
     background: radial-gradient(circle,#fff,#FFBDBD);
 }
 
@@ -219,7 +219,7 @@ body{
 
 .mapa {
     position: absolute;
-    top: 75%;
+    top: 85%;
     left: 20%; 
     max-width: 50%;
     transition: all 1s;
@@ -228,7 +228,7 @@ body{
 }
 .mapa:hover {
     left: 0%;
-    top: 70%;
+    top: 80%;
     max-width: 100%;
 }
 
@@ -238,7 +238,7 @@ body{
     font-family: 'Righteous', cursive;
     text-align: center;
     color: #c90076;
-    top: 85%;
+    top: 95%;
     left: 8%;
     width: 40vh;
     height: 3%;
