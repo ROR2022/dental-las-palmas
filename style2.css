@@ -32,11 +32,25 @@ img {
     border: 1px solid #000
 }
 
+.menu {
+    display: inline-block;
+    text-align: center;
+}
+
 .volver {
     text-decoration: none;
     font: bold 90% 'Lobster',cursive;
     text-align: center;
     color: #c90076;
+    padding: 1%;
+}
+
+.cita {
+    text-decoration: none;
+    font: bold 90% 'Lobster',cursive;
+    text-align: center;
+    color: #c90076;
+    padding: 1%;
 }
 
 

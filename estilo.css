@@ -115,6 +115,11 @@ body{
     margin-top: 10%;
     font: bold 90% 'Lobster',cursive;
     text-align: center;
+    
+}
+
+.slogan a{
+    text-decoration: none;
     color: #c90076;
 }
 
@@ -127,6 +132,10 @@ body{
     text-align: center;
     color: #c90076;
     z-index: 100;
+}
+.titulo a{
+    text-decoration: none;
+    color: #c90076;
 }
 
 .publi-container {
@@ -219,7 +228,7 @@ body{
 
 .mapa {
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 20%; 
     max-width: 50%;
     transition: all 1s;
@@ -228,7 +237,7 @@ body{
 }
 .mapa:hover {
     left: 0%;
-    top: 80%;
+    top: 85%;
     max-width: 100%;
 }
 
